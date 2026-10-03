@@ -23,8 +23,6 @@ I like taking on challenges that push me out of my comfort zone. Whether I’m s
 
 ### Life Beyond Engineering
 
-<img src="{{ '/assets/img/.jpg' | relative_url }}" alt="Kyle Stellmann" style="width: 100%; max-width: 450px; height: auto; margin-bottom: 20px; border-radius: 4px;">
-
 When I’m not in class or in the campus machine shop:
 
 * I volunteer with **Assistive Technologies**, designing custom tools and controls to help make everyday objects more accessible for people with mobility challenges.
