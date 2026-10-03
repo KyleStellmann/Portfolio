@@ -26,8 +26,9 @@ I like taking on challenges that push me out of my comfort zone. Whether I’m s
 When I’m not in class or in the campus machine shop:
 
 * I volunteer with **Assistive Technologies**, designing custom tools and controls to help make everyday objects more accessible for people with mobility challenges.
-* I work at Liscio’s Bakery to help pay my way through school. It’s fast-paced, keeps my time management sharp, and reminds me of the value of plain old hard work.
 * I’m an active member of Rowan’s **Martinson Honors College** and **ASME**.
+* I work at Liscio’s Bakery to help pay my way through school. It’s fast-paced, keeps my time management sharp, and reminds me of the value of plain old hard work.
+
 
 ---
 
