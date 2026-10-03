@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Contact Me
-permalink: /Contact Me/
+title: Contact
+permalink: /contact/
 ---
 
 <style>
@@ -45,7 +45,7 @@ Whether you'd like to discuss engineering opportunities, collaborate on a projec
 
 * **Email:** [Stellm98@rowan.edu](mailto:Stellm98@rowan.edu)
 * **Phone:** (973) 903-6047
-* **LinkedIn:** [Kyle Stellmann](https://www.linkedin.com) *(Update with your direct URL)*
+* **LinkedIn:** [Kyle Stellmann](https://www.linkedin.com)
 * **Location:** Glassboro / New Jersey
 
 ---
@@ -54,7 +54,7 @@ Whether you'd like to discuss engineering opportunities, collaborate on a projec
 
 If you need a copy of my official resume for employment or academic purposes, you can download it directly below:
 
-<a href="{{ '/assets/Kyle_Stellmann_Resume.pdf' | relative_url }}" class="contact-btn" download>Download PDF Resume</a>
+<a href="../assets/Kyle_Stellmann_Resume.pdf" class="contact-btn" download>Download PDF Resume</a>
 
 ---
 
@@ -62,4 +62,4 @@ If you need a copy of my official resume for employment or academic purposes, yo
 
 I’m currently completing my Junior year in Mechanical Engineering at Rowan University while balancing my shop-floor work, Honors College commitments, and shifts at Liscio’s Bakery. 
 
-I am open to discussing **Summer 2025 / Fall 2025** engineering internships, co-ops, and undergraduate research opportunities. Feel free to send me an email directly or connect on LinkedIn!
+I am open to discussing engineering internships, co-ops, and undergraduate research opportunities. Feel free to send me an email directly or connect on LinkedIn!
