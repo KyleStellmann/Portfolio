@@ -3,16 +3,6 @@ layout: page
 title: About Me
 permalink: /about
 ---
----
-layout: default
-title: About
-permalink: /about/
----
----
-layout: default
-title: About
-permalink: /about/
----
 
 # Hi, I'm Kyle.
 
