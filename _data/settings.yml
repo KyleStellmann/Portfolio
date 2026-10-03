@@ -5,9 +5,9 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Projects',  url: 'projects'}
-- {name: 'About',              url: 'about'}
-- {name: 'Contact',            url: 'contact'}
+- {name: 'Engineering Projects',  url: 'projects'}
+- {name: 'About Me',              url: 'about'}
+- {name: 'Contact Me',            url: 'contact'}
 
 social:
 
