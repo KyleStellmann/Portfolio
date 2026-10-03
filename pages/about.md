@@ -6,7 +6,7 @@ permalink: /about
 
 # Hi, I'm Kyle.
 
-<img src="{{ site.baseurl }}/assets/images/engineering.jpg" alt="Kyle Stellmann" style="width: 100%; max-width: 400px; height: auto; margin-bottom: 20px; border-radius: 4px;">
+<img src="/assets/images/engineering.jpg" alt="Kyle Stellmann" style="width: 100%; max-width: 450px; height: auto; border-radius: 4px;">
 
 I’m a Junior studying Mechanical Engineering at **Rowan University**, born and raised in Wantage, New Jersey. 
 
