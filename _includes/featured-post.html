@@ -1,7 +1,9 @@
-<article>
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-post" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
-      <h2><span>{{ post.title }}</span></h2>
+<div class="featured-post" style="background-image:url('{{ site.github.url }}/assets/img/{{ post.image }}')">
+  <div class="featured-header">
+    <h2><span>{{ post.title }}</span></h2>
+    <div class="hero-buttons">
+      <a href="mailto:your-email@example.com" class="btn btn-primary">Contact Me</a>
+      <a href="#projects" class="btn btn-secondary">Projects</a>
     </div>
-  </a>
-</article>
+  </div>
+</div>
