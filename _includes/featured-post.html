@@ -1,9 +1,9 @@
 <div class="featured-post" style="background-image:url('{{ site.github.url }}/assets/img/{{ post.image }}')">
   <div class="featured-header">
-    <h2><span>{{ post.title }}</span></h2>
-    <div class="hero-buttons">
-      <a href="mailto:your-email@example.com" class="btn btn-primary">Contact Me</a>
-      <a href="#projects" class="btn btn-secondary">Projects</a>
+    <h2><span><a href="{{ site.github.url }}{{ post.url }}" style="color: inherit; text-decoration: none;">{{ post.title }}</a></span></h2>
+    <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px;">
+      <a href="mailto:your-email@example.com" style="background: #000000; color: #ffffff; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: 600; font-size: 0.9rem; display: inline-block;">Contact Me</a>
+      <a href="#projects" style="background: #ffffff; color: #000000; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: 600; font-size: 0.9rem; border: 1px solid #000000; display: inline-block;">Projects</a>
     </div>
   </div>
 </div>
