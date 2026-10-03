@@ -1,13 +1,18 @@
-<div class="featured-post" style="background-image:url('{{ site.github.url }}/assets/img/{{ post.image }}'); min-height: 400px; display: flex; align-items: center; justify-content: flex-start; padding-left: 10%; position: relative; box-sizing: border-box; overflow: hidden;">
-  <div class="featured-header" style="position: relative; top: auto; left: auto; transform: none; text-align: left; margin: 0; font-family: 'Times New Roman', Times, serif;">
-    <h2 style="font-family: 'Times New Roman', Times, serif; margin: 0 0 15px 0; line-height: 1.2;">
-      <span style="background: #000000; color: #ffffff; padding: 5px 10px; display: inline-block;">
-        <a href="{{ site.github.url }}{{ post.url }}" style="color: inherit; text-decoration: none; font-family: 'Times New Roman', Times, serif;">{{ post.title }}</a>
-      </span>
-    </h2>
-    <div style="display: flex; gap: 10px; justify-content: flex-start; margin-top: 15px;">
-      <a href="mailto:your-email@example.com" style="background: #000000; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 0px; font-weight: 600; font-size: 0.95rem; display: inline-block; font-family: 'Times New Roman', Times, serif; border: 1px solid #000000;">Contact Me</a>
-      <a href="#projects" style="background: #ffffff; color: #000000; padding: 10px 20px; text-decoration: none; border-radius: 0px; font-weight: 600; font-size: 0.95rem; display: inline-block; font-family: 'Times New Roman', Times, serif; border: 1px solid #000000;">Projects</a>
+<div style="width: 100%; padding: 40px 10%; box-sizing: border-box; background: #ffffff; text-align: left; font-family: 'Times New Roman', Times, serif;">
+  
+  {% if post.image %}
+    <div style="margin-bottom: 20px;">
+      <img src="{{ site.github.url }}/assets/img/{{ post.image }}" alt="{{ post.title }}" style="max-width: 100%; height: auto; display: block;">
     </div>
+  {% endif %}
+
+  <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 3rem; margin: 0 0 10px 0; color: #000000; line-height: 1.1; font-weight: normal;">
+    {{ post.title }}
+  </h1>
+
+  <div style="display: flex; gap: 12px; justify-content: flex-start; margin-top: 20px; align-items: center;">
+    <a href="mailto:your-email@example.com" style="background: #000000; color: #ffffff; padding: 10px 22px; text-decoration: none; border-radius: 0px; font-weight: bold; font-size: 0.95rem; display: inline-block; font-family: 'Times New Roman', Times, serif; border: 1px solid #000000; box-sizing: border-box;">Contact Me</a>
+    <a href="#projects" style="background: #ffffff; color: #000000; padding: 10px 22px; text-decoration: none; border-radius: 0px; font-weight: bold; font-size: 0.95rem; display: inline-block; font-family: 'Times New Roman', Times, serif; border: 1px solid #000000; box-sizing: border-box;">Projects</a>
   </div>
+
 </div>
