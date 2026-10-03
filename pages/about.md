@@ -3,35 +3,45 @@ layout: page
 title: About Me
 permalink: /about
 ---
-# About Me
+---
+layout: default
+title: About
+permalink: /about/
+---
 
-Hi! My name is **Kyle Stellmann**, and I am a Mechanical Engineering student in the Martinson Honors College at Rowan University.
+# Hi, I'm Kyle.
 
-I’ve always been driven by a curiosity for how complex systems work—and how to make them better. Whether I am optimizing hydrodynamic hull geometry in SolidWorks, precision-machining aluminum flexures in the shop, or programming microcontrollers to collect sensor data, I enjoy bridging the gap between theoretical analysis and hands-on mechanical design.
+I’m a Junior studying Mechanical Engineering at **Rowan University**, born and raised in New Jersey. 
+
+Ever since I can remember, I’ve been fascinated by taking things apart to see how they work—and putting them back together better than I found them. Engineering, for me, isn't just about equations or computer screens; it’s about the feeling of making something tangible with your hands and seeing an idea actually function in the real world.
 
 ---
 
-### What I Do
+### What Drives Me
 
-My engineering focus spans fluid mechanics, mechanical design, embedded systems, and energy efficiency. Some of my favorite work includes:
+I like taking on challenges that push me out of my comfort zone. Whether I’m spending hours machining metal in the shop, troubleshooting code on a microcontroller, or figuring out how to make a mechanical design safer and easier for someone to use, I thrive on the process of learning through doing.
 
-* **Underwater Robotics:** Running SolidWorks CFD flow simulations on an Underwater ROV hull to optimize geometry—reducing drag by 15% and boosting top speed—backed by closed-form dynamic equations balancing motor thrust and hydrodynamic forces.
-* **Precision Mechatronics:** Machining aluminum flexures down to 0.010" tolerances on a manual mill and lathe, paired with custom C++ Arduino programming and noise filtering to build a high-precision load scale inside a water-resistant CAD housing.
-* **Thermal & Mechanical Systems:** Designing and prototyping Stirling engines using SolidWorks and custom PLA-to-PVC interference fits, as well as conducting weather-normalized facility utility audits for the New Jersey Department of Military Affairs to identify HVAC energy-saving measures.
+I approach my work with curiosity, patience, and a strong belief that good engineering should make people's lives simpler and better.
 
 ---
 
-### Beyond the Classroom
+### Life Beyond Engineering
 
-Outside of core coursework, I stay active in the engineering community as a member of the **American Society of Mechanical Engineers (ASME)** and **Assistive Technologies**, where I design low-actuation switches and safety restraints focused on human-factors controls and ergonomics. 
+When I’m not in class or in the campus machine shop:
 
-When I’m not in the CAD lab or machine shop, I work at Liscio’s Bakery, where keeping up with high-volume customer flow keeps my communication and problem-solving skills sharp.
+* I volunteer with **Assistive Technologies**, designing custom tools and controls to help make everyday objects more accessible for people with mobility challenges.
+* I work at **Liscio’s Bakery**, where working alongside a great team in a fast-paced environment keeps me grounded and reminded of the value of hard work and good communication.
+* I’m an active member of Rowan’s **Martinson Honors College** and **ASME**.
 
 ---
 
-### Get in Touch
+### Let's Talk!
 
-I am always eager to collaborate on technical projects or discuss full-time and internship opportunities in mechanical design, manufacturing, and product development.
+I’m always excited to meet new people, collaborate on interesting projects, or talk about upcoming engineering opportunities. Feel free to reach out anytime:
+
+* **Email:** [Stellm98@rowan.edu](mailto:Stellm98@rowan.edu)
+* **Phone:** (973) 903-6047
+* **LinkedIn:** [Kyle Stellmann](https://www.linkedin.com)
 
 * **Email:** [Stellm98@rowan.edu](mailto:Stellm98@rowan.edu)
 * **Phone:** (973) 903-6047
