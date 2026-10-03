@@ -6,7 +6,7 @@ permalink: /about
 
 # Hi, I'm Kyle.
 
-<img src="{{ '/assets/img/engineering.jpg' | relative_url }}" alt="Kyle Stellmann" style="width: 100%; max-width: 450px; height: auto; margin-bottom: 20px; border-radius: 4px;">
+<img src="{{ '/assets/img/me.jpg' | relative_url }}" alt="Kyle Stellmann" style="width: 100%; max-width: 450px; height: auto; margin-bottom: 20px; border-radius: 4px;">
 
 I’m a Junior studying Mechanical Engineering at **Rowan University**, born and raised in Wantage, New Jersey. 
 
@@ -23,7 +23,7 @@ I like taking on challenges that push me out of my comfort zone. Whether I’m s
 
 ### Life Beyond Engineering
 
-<img src="{{ '/assets/img/me.jpg' | relative_url }}" alt="Kyle Stellmann" style="width: 100%; max-width: 450px; height: auto; margin-bottom: 20px; border-radius: 4px;">
+<img src="{{ '/assets/img/.jpg' | relative_url }}" alt="Kyle Stellmann" style="width: 100%; max-width: 450px; height: auto; margin-bottom: 20px; border-radius: 4px;">
 
 When I’m not in class or in the campus machine shop:
 
