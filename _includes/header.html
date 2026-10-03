@@ -1,6 +1,6 @@
 <header class="site-header" style="font-family: 'Times New Roman', Times, serif;">
   <h3 class="site-title">
-    <a href="{{ site.github.url }}/" style="font-family: 'Times New Roman', Times, serif;">{{ site.title }}</a>
+    <a href="{{ site.github.url }}/" style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">{{ site.title }}</a>
   </h3>
   <nav class="menu-list" style="display: flex; justify-content: space-between; align-items: center; width: 100%; font-family: 'Times New Roman', Times, serif;">
     {% for item in site.data.settings.menu %}
@@ -22,3 +22,22 @@
     </div>
   </div>
 </header>
+
+<style>
+  /* Global overrides so subpages maintain header layout, font, and bold title */
+  header.site-header, 
+  header.site-header * {
+    font-family: 'Times New Roman', Times, serif !important;
+  }
+  
+  .site-title a {
+    font-weight: bold !important;
+  }
+
+  .site-header .menu-list {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+</style>
