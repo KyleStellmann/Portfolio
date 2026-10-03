@@ -46,7 +46,7 @@ Whether you'd like to discuss engineering opportunities, collaborate on a projec
 * **Email:** [Stellm98@rowan.edu](mailto:Stellm98@rowan.edu)
 * **Phone:** (973) 903-6047
 * **LinkedIn:** [Kyle Stellmann](https://www.linkedin.com)
-* **Location:** Glassboro / New Jersey
+* **Location:** New Jersey
 
 ---
 
