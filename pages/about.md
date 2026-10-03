@@ -19,13 +19,13 @@ Ever since I can remember, I’ve been fascinated by taking things apart to see 
 
 I like taking on challenges that push me out of my comfort zone. Whether I’m spending hours in the machine shop or troubleshooting code on a microcontroller, I thrive on the process of learning through doing.
 
-<Image src="image_agent_tag_17479713220624283120" alt="Precision milling machine in a machine shop workspace" caption="Precision machining equipment" />
-
 ---
 
 ### Life Beyond Engineering
 
 When I’m not in class or in the campus machine shop:
+
+<img src="../assets/img/me.jpg" alt="Kyle Stellmann" style="width: 100%; max-width: 450px; height: auto; border-radius: 4px;">
 
 * I volunteer with **Assistive Technologies**, designing custom tools and controls to help make everyday objects more accessible for people with mobility challenges.
 *I work at Liscio’s Bakery to help pay my way through school. It’s fast-paced, keeps my time management sharp, and reminds me of the value of plain old hard work.
