@@ -1,19 +1,12 @@
-# Site Build Settings
+title: Kyle Stellmann
+remote_theme: PaulLeCam/millennial-jekyll-theme
+url: "https://KyleStellmann.github.io"
+baseurl: "/Portfolio"
 
-# jekyll-paginate configuration
-paginate:            5
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
-
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Kyle Stellmann"
-description:	       "Personal Portfolio & Projects"
-author:              "Kyle J Stellmann"
-
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+markdown: kramdown
