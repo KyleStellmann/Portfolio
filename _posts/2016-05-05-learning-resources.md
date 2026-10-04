@@ -1,4 +1,4 @@
-@@ -1,22 +0,0 @@
+
 ---
 layout: post
 title: "Learning Resources"
