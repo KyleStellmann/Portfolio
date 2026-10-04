@@ -26,7 +26,7 @@ author: "Kyle Stellmann"
   }
 </style>
 
-<img src="../assets/img/urov.jpg" alt="Underwater Remotely Operated Vehicle" class="project-img">
+<img src=" UROV.jpg" alt="Underwater Remotely Operated Vehicle" class="project-img">
 
 ### Project Overview
 
