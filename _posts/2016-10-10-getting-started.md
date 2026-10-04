@@ -6,6 +6,11 @@ categories: projects
 image: UROV.jpg
 author: "Kyle Stellmann"
 ---
+.post-container {
+  max-width: 800px; /* or 800pt */
+  width: 100%;
+  margin: 0 auto;  /* keeps the post centered on the screen */
+}
 
 ### Project Overview
 
