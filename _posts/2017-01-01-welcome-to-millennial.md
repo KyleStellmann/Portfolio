@@ -11,4 +11,4 @@ author: "Kyle Stellmann"
   window.location.href = "/Portfolio/about/";
 </script>
 
-Redirecting to <a href="/Portfolio/about/">About Me</a>...
+Redirecting to <a href="/pages/about/">About Me</a>
