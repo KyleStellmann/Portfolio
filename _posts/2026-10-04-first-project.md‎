@@ -1,8 +1,11 @@
 ---
-author: "Paul Le"
+layout: post
+title: "My First Project"
+date: 2026-10-04
+author: "Kyle Stellmann"
 categories: documentation
-tags: [documentation,sample]
-image: UROV.jpg
+tags: [documentation, sample]
+image: /assets/img/UROV.jpg
 ---
 
 # Millennial
