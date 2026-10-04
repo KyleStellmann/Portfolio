@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Underwater Remotely Operated Vehicle (UROV)"
-date: 2026-10-03
+date: 2026-10-04
 categories: projects
-image: assets/img/urov.jpg
+image: UROV.jpg
 author: "Kyle Stellmann"
-render_with_liquid: false
 ---
 
 <style>
