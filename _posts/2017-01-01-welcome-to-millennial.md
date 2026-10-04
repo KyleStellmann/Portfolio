@@ -1,6 +1,15 @@
 ---
 layout: post
-title: "Welcome to Millennial"
+title: "About Me"
 date: 2017-01-01
-redirect_to: /about/
+image: assets/img/city-1.jpg
+author: "Kyle Stellmann"
 ---
+
+<meta http-equiv="refresh" content="0; url=/about-the-author/" />
+
+<script>
+  window.location.href = "/about-the-author/";
+</script>
+
+Redirecting to [About Me](/about-the-author/)...
