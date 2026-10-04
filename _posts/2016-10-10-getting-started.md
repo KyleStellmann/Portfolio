@@ -1,41 +1,42 @@
 ---
 layout: post
-title: "Getting Started"
-author: "Paul Le"
-categories: documentation
-tags: [documentation,sample]
-image: city-1.jpg
+title: "Underwater Remotely Operated Vehicle (UROV)"
+date: 2026-10-03
+categories: projects
+image: assets/img/urov.jpg
+author: "Kyle Stellmann"
+render_with_liquid: false
 ---
 
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+<style>
+  body, p, li, a, h1, h2, h3, h4 {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+  .wrapper, .page-content, main {
+    max-width: 800px !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .project-img {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    border-radius: 4px;
+    margin: 15px 0 25px 0;
+  }
+</style>
 
-## Installation
+<img src="../assets/img/urov.jpg" alt="Underwater Remotely Operated Vehicle" class="project-img">
 
-### GitHub Pages
+### Project Overview
 
-If you are new to Jekyll and GitHub Pages, the easiest way to get up and running is to fork the [Millennial repository on GitHub](https://github.com/LeNPaul/Millennial).
+Designed and built an underwater Remotely Operated Vehicle (UROV) tailored for sub-surface maneuvering and debris collection. The primary objective was to maximize top speed and thrust efficiency while maintaining a lightweight, corrosion-resistant frame.
 
-1. [Fork](https://help.github.com/articles/fork-a-repo/) the [Millennial repository](https://github.com/LeNPaul/Millennial).
-2. [Rename](https://help.github.com/articles/renaming-a-repository/) the repository to `USERNAME.github.io` (where `USERNAME` is your GitHub username).
-3. [Clone](https://help.github.com/articles/cloning-a-repository/) the repository locally (`git clone https://github.com/USERNAME/USERNAME.github.io.git`).
-4. Edit `_config.yml` to personalize your site.
-
-### Local Installation
-
-If you prefer to run Jekyll locally:
-
-1. Clone the repository: `git clone https://github.com/LeNPaul/Millennial.git`
-2. Navigate to the directory: `cd Millennial`
-3. Install dependencies: `bundle install`
-4. Run the Jekyll server: `bundle exec jekyll serve`
-5. Open your browser to `http://localhost:4000`
-
-## Configuration
-
-Customize your site by modifying settings in `_config.yml`:
-
-* **title**: The title of your website.
-* **description**: A short description of your site.
-* **author**: Your name or nickname.
-* **avatar**: Path to your profile photo/avatar.
 ---
+
+### Technical Highlights & Analysis
+
+* **Computational Fluid Dynamics (CFD):** Executed SolidWorks Flow Simulation on hull geometry to evaluate drag coefficients (Cd). Optimized structural contouring to reduce total hydrodynamic drag by **15%**, yielding an increased top speed of **0.3 m/s**.
+* **Closed-Form Dynamic Modeling:** Developed first-principles mathematical models balancing 10 N total motor thrust against hydrodynamic resistive drag equations to calculate theoretical terminal velocity limits.
+* **Prototyping & Fabrication:** Built a buoyant PVC chassis equipped with tailored floatation elements, a front netting system for sample collection, and balanced thruster orientation.
