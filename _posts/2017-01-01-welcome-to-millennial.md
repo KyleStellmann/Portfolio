@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "About Me"
+title: " "
 date: 2017-01-01
-image: assets/img/Header.jpg
+image: Header.jpg
 author: "Kyle Stellmann"
 ---
-
-<meta http-equiv="refresh" content="0; url={{ '/about/' | relative_url }}" />
+<meta http-equiv="refresh" content="0; url=../about" />
 
 <script>
-  window.location.href = "{{ '/about/' | relative_url }}";
+  window.location.href = "../about";
 </script>
 
-Redirecting to [About Me]({{ '/about/' | relative_url }})...
+Redirecting to <a href="../about">About Me</a>...
