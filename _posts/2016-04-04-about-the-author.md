@@ -1,4 +1,4 @@
-@@ -1,10 +0,0 @@
+
 ---
 layout: post
 title: "About the Author"
