@@ -6,10 +6,10 @@ image: assets/img/city-1.jpg
 author: "Kyle Stellmann"
 ---
 
-<meta http-equiv="refresh" content="0; url=/Portfolio/about-the-author/" />
+<meta http-equiv="refresh" content="0; url={{ '/about/' | relative_url }}" />
 
 <script>
-  window.location.href = "/Portfolio/about-the-author/";
+  window.location.href = "{{ '/about/' | relative_url }}";
 </script>
 
-Redirecting to [About Me](/Portfolio/about-the-author/)...
+Redirecting to [About Me]({{ '/about/' | relative_url }})...
