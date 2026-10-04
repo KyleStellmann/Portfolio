@@ -2,7 +2,7 @@
 layout: post
 title: "About Me"
 date: 2017-01-01
-image: assets/img/city-1.jpg
+image: assets/img/Header.jpg
 author: "Kyle Stellmann"
 ---
 
