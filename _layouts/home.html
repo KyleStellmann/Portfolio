@@ -2,7 +2,54 @@
 layout: default
 title: Home
 ---
+<style>
+  .featured-post-container {
+    max-width: 1000px !important;
+    margin: 0 auto 50px auto !important;
+    text-align: center !important;
+  }
+  .featured-post-title {
+    text-align: center !important;
+    margin-bottom: 25px !important;
+  }
+  .featured-post-title a {
+    text-decoration: none;
+  }
+  .featured-post-image {
+    text-align: center !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+  }
+  .featured-post-image img {
+    display: block !important;
+    margin: 0 auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 4px;
+  }
+</style>
 
-{% for post in paginator.posts %}
-  {% include featured-post.html %}
-{% endfor %}
+<div class="featured-post-container">
+
+  <!-- 1. Title on Top -->
+  <header class="post-header">
+    <h1 class="featured-post-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h1>
+  </header>
+
+  <!-- 2. Image Below Title -->
+  {% if post.image %}
+    <div class="featured-post-image">
+      <a href="{{ post.url | relative_url }}">
+        <img src="{{ site.github.url }}/assets/img/{{ post.image }}" alt="{{ post.title | escape }}">
+      </a>
+    </div>
+  {% endif %}
+
+  <!-- 3. Post Excerpt / Content -->
+  <article class="post-content" style="text-align: left;">
+    {{ post.excerpt }}
+  </article>
+
+</div>
