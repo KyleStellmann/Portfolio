@@ -6,10 +6,10 @@ image: assets/img/city-1.jpg
 author: "Kyle Stellmann"
 ---
 
-<meta http-equiv="refresh" content="0; url=/about-the-author/" />
+<meta http-equiv="refresh" content="0; url=/Portfolio/about-the-author/" />
 
 <script>
-  window.location.href = "/about-the-author/";
+  window.location.href = "/Portfolio/about-the-author/";
 </script>
 
-Redirecting to [About Me](/about-the-author/)...
+Redirecting to [About Me](/Portfolio/about-the-author/)...
