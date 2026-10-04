@@ -1,4 +1,4 @@
-@@ -1,157 +0,0 @@
+
 ---
 layout: post
 title: "Text Formatting"
