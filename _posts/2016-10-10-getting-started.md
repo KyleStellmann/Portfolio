@@ -8,14 +8,20 @@ author: "Kyle Stellmann"
 ---
 
 <style>
-  body, p, li, a, h1, h2, h3, h4 {
+  /* Target only this specific post container so the homepage layout isn't affected */
+  .custom-project-post {
     font-family: "Times New Roman", Times, serif !important;
-  }
-  .wrapper, .page-content, main {
     max-width: 800px !important;
-    width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin: 0 auto !important;
+  }
+  .custom-project-post p, 
+  .custom-project-post li, 
+  .custom-project-post a, 
+  .custom-project-post h1, 
+  .custom-project-post h2, 
+  .custom-project-post h3, 
+  .custom-project-post h4 {
+    font-family: "Times New Roman", Times, serif !important;
   }
   .project-img {
     width: 100%;
@@ -26,7 +32,9 @@ author: "Kyle Stellmann"
   }
 </style>
 
-<img src="/assets/img/UROV.jpg" alt="Underwater Remotely Operated Vehicle" class="project-img">
+<div class="custom-project-post">
+
+<img src="/assets/img/urov.jpg" alt="Underwater Remotely Operated Vehicle" class="project-img">
 
 ### Project Overview
 
@@ -39,3 +47,5 @@ Designed and built an underwater Remotely Operated Vehicle (UROV) tailored for s
 * **Computational Fluid Dynamics (CFD):** Executed SolidWorks Flow Simulation on hull geometry to evaluate drag coefficients (Cd). Optimized structural contouring to reduce total hydrodynamic drag by **15%**, yielding an increased top speed of **0.3 m/s**.
 * **Closed-Form Dynamic Modeling:** Developed first-principles mathematical models balancing 10 N total motor thrust against hydrodynamic resistive drag equations to calculate theoretical terminal velocity limits.
 * **Prototyping & Fabrication:** Built a buoyant PVC chassis equipped with tailored floatation elements, a front netting system for sample collection, and balanced thruster orientation.
+
+</div>
