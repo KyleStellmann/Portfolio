@@ -16,6 +16,8 @@ Designed and built an underwater Remotely Operated Vehicle (UROV) tailored for s
 ### Technical Highlights & Analysis
 
 * **Computational Fluid Dynamics (CFD):** Executed SolidWorks Flow Simulation on hull geometry to evaluate drag coefficients (Cd). Optimized structural contouring to reduce total hydrodynamic drag by **15%**, yielding an increased top speed of **0.3 m/s**.
-  ![SolidWorks CFD simulation of UROV hull geometry](assets/img/CFD.jpg)
+  
+<img src="/assets/img/CFD.jpg" alt="SolidWorks CFD simulation" style="margin-top: 15px; margin-bottom: 15px; display: block;" />
+
 * **Closed-Form Dynamic Modeling:** Developed first-principles mathematical models balancing 10 N total motor thrust against hydrodynamic resistive drag equations to calculate theoretical terminal velocity limits.
 * **Prototyping & Fabrication:** Built a buoyant PVC chassis equipped with tailored floatation elements, a front netting system for sample collection, and balanced thruster orientation.
