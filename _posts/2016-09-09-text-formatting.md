@@ -2,7 +2,7 @@
 layout: post
 title: "Load Cell Scale & Embedded System"
 categories: projects
-image: Scale.jpg
+image: /assets/img/Scale.jpg
 author: "Kyle Stellmann"
 ---
 
