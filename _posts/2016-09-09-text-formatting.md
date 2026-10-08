@@ -1,8 +1,8 @@
- ---
+---
 layout: post
 title: "Load Cell Scale & Embedded System"
+date: 2016-09-09
 categories: projects
-image: /assets/img/Scale.jpg
+image: Scale.jpg
 author: "Kyle Stellmann"
 ---
-
