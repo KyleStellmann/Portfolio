@@ -3,7 +3,12 @@ layout: page
 title:
 permalink: /about/
 ---
-
+<style>
+  /* Hides the auto-generated theme title on this page */
+  .page-title, h1.title {
+    display: none !important;
+  }
+</style>
 # Hi, I'm Kyle.
 
 <img src="{{ '/assets/img/me.jpg' | relative_url }}" alt="Kyle Stellmann" style="width: 100%; max-width: 450px; height: auto; margin-bottom: 20px; border-radius: 4px;">
