@@ -1,10 +1,10 @@
 <!-- MUST start with this -->
-<div style="width: 100%; padding: 40px 10%; box-sizing: border-box; background: #ffffff; text-align: center; font-family: 'Times New Roman', Times, serif;">
+<div style="width: 100%; padding: 40px 10%; box-sizing: border-box; background: #ffffff; text-align: left; font-family: 'Times New Roman', Times, serif;">
 
   {% if post.image %}
     <div style="margin-bottom: 20px;">
       <a href="{{ site.github.url }}{{ post.url }}">
-        <img src="{{ site.github.url }}/assets/img/{{ post.image }}" alt="{{ post.title }}" style="height: 450px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: 0 auto;">
+        <img src="{{ site.github.url }}/assets/img/{{ post.image }}" alt="{{ post.title }}" style="height: 450px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: 0 0;">
       </a>
     </div>
   {% endif %}
@@ -14,7 +14,7 @@
   </h2>
 
   {% if forloop.first %}
-    <div style="display: flex; gap: 12px; justify-content: center; margin-top: 20px; align-items: center;">
+    <div style="display: flex; gap: 12px; justify-content: flex-start; margin-top: 20px; align-items: center;">
       <a href="mailto:stell98@rowan.edu" style="background: #000000; color: #ffffff; padding: 10px 22px; text-decoration: none; border-radius: 0px; font-weight: bold; font-size: 0.95rem; display: inline-block; font-family: 'Times New Roman', Times, serif; border: 1px solid #000000; box-sizing: border-box;">Contact Me</a>
       <a href="#projects" style="background: #ffffff; color: #000000; padding: 10px 22px; text-decoration: none; border-radius: 0px; font-weight: bold; font-size: 0.95rem; display: inline-block; font-family: 'Times New Roman', Times, serif; border: 1px solid #000000; box-sizing: border-box;">Projects</a>
     </div>
