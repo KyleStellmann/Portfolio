@@ -65,15 +65,15 @@
     z-index: 1000 !important;
   }
 
-  /* Flexbox container with symmetrical vertical centering */
+  /* Flexbox container adjusted to lift menu content upwards */
   .site-header .menu-list {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     width: 100% !important;
-    min-height: 80px !important; /* Total header bar height */
+    min-height: 80px !important;
     margin: 0 !important;
-    padding: 0 5% !important; /* Zero vertical padding so flex centers items precisely */
+    padding: 0 5% 8px 5% !important; /* Bottom padding pushes content up slightly */
     box-sizing: border-box !important;
   }
 
