@@ -40,7 +40,7 @@
 </header>
 
 <style>
-  /* Force parent theme wrappers to full width and add slight transparency */
+  /* Force parent theme wrappers to full width and add light transparency */
   .site-header,
   header.site-header,
   header,
@@ -54,10 +54,10 @@
     box-sizing: border-box !important;
     font-family: 'Times New Roman', Times, serif !important;
     
-    /* Slightly transparent background + blur effect */
-    background-color: rgba(255, 255, 255, 0.85) !important; /* 85% opaque white */
-    backdrop-filter: blur(8px) !important; /* Soft frosted glass blur */
-    -webkit-backdrop-filter: blur(8px) !important;
+    /* Transparent frosted glass background */
+    background-color: rgba(255, 255, 255, 0.55) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
     
     /* Stick to the top when scrolling */
     position: sticky !important;
@@ -65,18 +65,19 @@
     z-index: 1000 !important;
   }
 
-  /* Stretch nav items evenly across the entire page width */
+  /* Fixed height container using flexbox centering so items never overflow */
   .site-header .menu-list {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     width: 100% !important;
+    height: 60px !important; /* Set explicit height for the header bar */
     margin: 0 !important;
-    padding: 12px 5% !important;
+    padding: 0 5% !important; /* Horizontal padding only */
     box-sizing: border-box !important;
   }
 
-  /* Base nav links styling */
+  /* Base nav link dimensions */
   .menu-link {
     font-family: 'Times New Roman', Times, serif !important;
     color: #000000 !important;
@@ -84,12 +85,14 @@
     font-weight: normal !important;
     white-space: nowrap !important;
     position: relative !important;
-    padding: 2px 6px 4px 6px !important;
+    padding: 8px 14px !important; /* Controlled padding inside button */
     border-radius: 0 !important;
     transition: all 0.2s ease !important;
+    display: inline-flex !important;
+    align-items: center !important;
   }
 
-  /* Active page highlight: Subtle inset + sharp corners + bold + underline */
+  /* Active page highlight fits cleanly inside the 60px header height */
   .menu-link.active {
     font-weight: bold !important;
     color: #222222 !important;
@@ -98,11 +101,11 @@
     border-bottom: 2px solid #000000 !important;
   }
 
-  /* Downward arrow centered directly beneath the pressed active button */
+  /* Downward arrow positioned cleanly along the bottom edge of the button */
   .menu-link.active::after {
     content: '' !important;
     position: absolute !important;
-    bottom: -6px !important;
+    bottom: -5px !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
     width: 0 !important;
