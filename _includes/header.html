@@ -65,15 +65,15 @@
     z-index: 1000 !important;
   }
 
-  /* Fixed height container using flexbox centering so items never overflow */
+  /* Increased height container to comfortably wrap the highlight box and arrow */
   .site-header .menu-list {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     width: 100% !important;
-    height: 60px !important; /* Set explicit height for the header bar */
+    min-height: 75px !important; /* Expanded height so background covers button + arrow */
     margin: 0 !important;
-    padding: 0 5% !important; /* Horizontal padding only */
+    padding: 10px 5% !important; 
     box-sizing: border-box !important;
   }
 
@@ -85,14 +85,15 @@
     font-weight: normal !important;
     white-space: nowrap !important;
     position: relative !important;
-    padding: 8px 14px !important; /* Controlled padding inside button */
+    padding: 6px 12px !important; /* Compact button padding */
     border-radius: 0 !important;
     transition: all 0.2s ease !important;
     display: inline-flex !important;
     align-items: center !important;
+    line-height: 1.2 !important;
   }
 
-  /* Active page highlight fits cleanly inside the 60px header height */
+  /* Active page highlight fits cleanly inside the 75px header height */
   .menu-link.active {
     font-weight: bold !important;
     color: #222222 !important;
@@ -101,7 +102,7 @@
     border-bottom: 2px solid #000000 !important;
   }
 
-  /* Downward arrow positioned cleanly along the bottom edge of the button */
+  /* Downward arrow positioned cleanly inside bottom padding boundary */
   .menu-link.active::after {
     content: '' !important;
     position: absolute !important;
