@@ -1,4 +1,7 @@
 <header class="site-header">
+  <h3 class="site-title">
+    <a href="{{ site.github.url }}/">Home</a>
+  </h3>
   <nav class="menu-list">
     {% for item in site.data.settings.menu %}
       <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
@@ -25,6 +28,12 @@
   .site-header {
     font-family: 'Times New Roman', Times, serif !important;
   }
+  
+  /* Styling for the Home link in top left */
+  .site-title a {
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: bold !important;
+  }
 
   /* Target text links only, excluding icons */
   .menu-link {
@@ -35,14 +44,6 @@
   .site-header .fa,
   .site-header i {
     font-family: 'FontAwesome', FontAwesome !important;
-  }
-
-  /* Keep nav links spaced evenly */
-  .site-header .menu-list {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    width: 100% !important;
   }
 
   .wrapper, 
