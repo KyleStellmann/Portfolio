@@ -2,12 +2,41 @@
 <html>
   {% include head.html %}
   <body>
+    <!-- Full-width top navigation header -->
     {% include header.html %}
+
+    <!-- Framed content card containing hero info & projects -->
     <div class="container">
       <div class="content-wrapper">
         {{ content }}
       </div>
       {% include footer.html %}
     </div>
+
+    <style>
+      body {
+        background-color: #f8f9fa !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      .container {
+        max-width: 1000px !important;
+        margin: 30px auto !important;
+        padding: 40px 50px !important;
+        background-color: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        border-radius: 6px !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04) !important;
+        box-sizing: border-box !important;
+      }
+
+      .content-wrapper {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: transparent !important;
+      }
+    </style>
   </body>
 </html>
