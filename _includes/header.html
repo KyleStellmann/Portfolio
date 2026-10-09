@@ -74,17 +74,17 @@
     font-weight: normal !important;
     white-space: nowrap !important;
     position: relative !important;
-    padding: 4px 10px 8px 10px !important; /* Extra padding around text for inset container effect */
-    border-radius: 4px !important;
+    padding: 2px 6px 4px 6px !important; /* Compact padding to keep height low */
+    border-radius: 0 !important; /* Sharp, square corners */
     transition: all 0.2s ease !important;
   }
 
-  /* Active page highlight: Pressed/Inset effect + Bold + Underline */
+  /* Active page highlight: Subtle inset + sharp corners + bold + underline */
   .menu-link.active {
     font-weight: bold !important;
-    color: #333333 !important; /* Slightly softened dark text for pressed depth */
-    background-color: #e8e8e8 !important; /* Light gray background pill */
-    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.25) !important; /* Inset shadow creating pressed-down look */
+    color: #222222 !important;
+    background-color: #f2f2f2 !important; /* Lighter, subtle gray */
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.15) !important; /* Softened inset depth */
     border-bottom: 2px solid #000000 !important;
   }
 
