@@ -9,17 +9,7 @@ permalink: /about/
   .page-title, h1.title {
     display: none !important;
   }
-
-  /* Ensures the page content container matches the site-wide 1000px width */
-  .about-container {
-    max-width: 1000px !important;
-    width: 100% !important;
-    margin: 0 auto !important;
-    box-sizing: border-box !important;
-  }
 </style>
-
-<div class="about-container">
 
 # Hi, I'm Kyle.
 
@@ -54,5 +44,3 @@ I’m always excited to meet new people, collaborate on interesting projects, or
 - **Email:** [Stellm98@rowan.edu](mailto:Stellm98@rowan.edu)
 - **Phone:** (973) 903-6047
 - **LinkedIn:** [Kyle Stellmann](https://www.linkedin.com)
-
-</div>
