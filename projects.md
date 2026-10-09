@@ -3,6 +3,8 @@ layout: default
 title: Engineering Projects
 permalink: /projects/
 ---
+
+
 <style>
   /* Force all posts in this loop to center text and images */
   .projects-feed > div {
