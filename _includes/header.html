@@ -1,15 +1,20 @@
 <header class="site-header">
   <nav class="menu-list">
-    <!-- Home link -->
-    <a href="{{ site.github.url }}/" class="menu-link {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">Home</a>
+    <!-- Home Link -->
+    <a href="{{ site.github.url }}/" class="menu-link {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">
+      Home
+    </a>
 
+    <!-- Menu Links -->
     {% for item in site.data.settings.menu %}
-      {% assign item_url = item.url | prepend: '/' %}
-      <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link {% if page.url == item_url %}active{% endif %}">
+      <!-- Robust URL matching for active tab -->
+      {% assign slug = item.url | remove: '/' | remove: '.html' %}
+      <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link {% if page.url contains slug and slug != '' %}active{% endif %}">
         {{ item.name }}
       </a>
     {% endfor %}
 
+    <!-- Social Icons -->
     {% for item in site.data.settings.social %}
       <a href="{{ item.link }}" class="menu-link" target="_blank">
         <i class="fa fa-{{ item.icon }}" aria-hidden="true"></i>
@@ -23,8 +28,8 @@
     <div class="dropdown-content">
       <a href="{{ site.github.url }}/" class="menu-link {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">Home</a>
       {% for item in site.data.settings.menu %}
-        {% assign item_url = item.url | prepend: '/' %}
-        <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link {% if page.url == item_url %}active{% endif %}">
+        {% assign slug = item.url | remove: '/' | remove: '.html' %}
+        <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link {% if page.url contains slug and slug != '' %}active{% endif %}">
           {{ item.name }}
         </a>
       {% endfor %}
@@ -36,17 +41,18 @@
 </header>
 
 <style>
-  /* Header container resetting offsets */
-  .site-header {
-    font-family: 'Times New Roman', Times, serif !important;
+  /* Force site-header to stretch edge-to-edge across the page */
+  .site-header,
+  header.site-header {
     width: 100% !important;
-    max-width: 800px !important;
-    margin: 0 auto !important;
-    padding: 0 20px !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 5% !important; /* Adjust 5% to increase/decrease edge margins */
     box-sizing: border-box !important;
+    font-family: 'Times New Roman', Times, serif !important;
   }
 
-  /* Reset default browser/theme list paddings causing right overflow */
+  /* Distribute items evenly from far left to far right */
   .site-header .menu-list {
     display: flex !important;
     justify-content: space-between !important;
@@ -57,12 +63,12 @@
     box-sizing: border-box !important;
   }
 
-  /* Base styling for links */
+  /* Base nav links styling */
   .menu-link {
     font-family: 'Times New Roman', Times, serif !important;
     color: #000000 !important;
     text-decoration: none !important;
-    font-weight: normal;
+    font-weight: normal !important;
     white-space: nowrap !important;
   }
 
@@ -72,7 +78,7 @@
     border-bottom: 2px solid #000000 !important;
   }
 
-  /* Font Awesome Icon Protection */
+  /* Protect Font Awesome icons */
   .site-header .fa,
   .site-header i {
     font-family: 'FontAwesome', FontAwesome !important;
