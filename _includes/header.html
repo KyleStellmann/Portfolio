@@ -5,9 +5,8 @@
       Home
     </a>
 
-    <!-- Menu Links -->
+    <!-- Dynamic Menu Links -->
     {% for item in site.data.settings.menu %}
-      <!-- Robust URL matching for active tab -->
       {% assign slug = item.url | remove: '/' | remove: '.html' %}
       <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link {% if page.url contains slug and slug != '' %}active{% endif %}">
         {{ item.name }}
@@ -41,25 +40,29 @@
 </header>
 
 <style>
-  /* Force site-header to stretch edge-to-edge across the page */
+  /* Force parent theme wrappers to full width and remove left/right offsets */
   .site-header,
-  header.site-header {
+  header.site-header,
+  header,
+  .site-header .wrapper {
     width: 100% !important;
     max-width: 100% !important;
-    margin: 0 !important;
-    padding: 0 5% !important; /* Adjust 5% to increase/decrease edge margins */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     box-sizing: border-box !important;
     font-family: 'Times New Roman', Times, serif !important;
   }
 
-  /* Distribute items evenly from far left to far right */
+  /* Stretch nav items evenly across the entire page width */
   .site-header .menu-list {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     width: 100% !important;
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 0 5% !important; /* Adjust this percentage if you want it closer to/further from the edges */
     box-sizing: border-box !important;
   }
 
@@ -78,7 +81,7 @@
     border-bottom: 2px solid #000000 !important;
   }
 
-  /* Protect Font Awesome icons */
+  /* Font Awesome Icon Protection */
   .site-header .fa,
   .site-header i {
     font-family: 'FontAwesome', FontAwesome !important;
