@@ -6,5 +6,10 @@ categories: facts
 tags: [sample]
 image: NJDMA.png
 ---
+### Project Overview
+Evaluated 36 months of utility metrics against Heating and Cooling Degree Days (HDD/CDD) for the New Jersey Department of Military and Veterans Affairs (NJDMA) to establish a weather-normalized baseline and identify key facility inefficiencies.
 
-Hi there! I'm Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Check out [my personal website](https://www.lenpaul.com/) for more information on my other projects (including more Jekyll themes!), as well as some of my writing.
+### Technical Highlights & Analysis
+* **Baseline Development:** Analyzed three years of historical energy consumption alongside local HDD/CDD data to quantify weather-dependent energy loads and isolate operational waste.
+* **On-Site Facility Audit:** Conducted comprehensive physical inspections of active HVAC systems, building envelopes, and mechanical infrastructure to evaluate operational performance.
+* **ECM & Financial Analysis** Developed a detailed Energy Conservation Measure (ECM) technical report outlining proposed upgrades, complete with capital expenditure estimates, annual energy savings, and payback period calculations.
