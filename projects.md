@@ -28,9 +28,3 @@ permalink: /projects/
     {% include featured-post.html %}
   {% endfor %}
 </div>
-
-<div class="projects-feed">
-  {% for post in site.posts %}
-    {% include featured-post.html %}
-  {% endfor %}
-</div>
