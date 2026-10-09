@@ -4,6 +4,10 @@ title: Engineering Projects
 permalink: /projects/
 ---
 <style>
+  .projects-feed {
+    margin-top: 50px;
+  }
+
   /* Force all posts in this loop to center text and images */
   .projects-feed > div {
     text-align: center !important;
@@ -19,14 +23,8 @@ permalink: /projects/
   }
 </style>
 
-<!-- Added margin-top: 50px here to create top spacing -->
-<div class="projects-feed" style="margin-top: 50px;">
-  {% for post in site.posts offset:1 %}
-    {% include featured-post.html %}
-  {% endfor %}
-</div>
 <div class="projects-feed">
-  {% for post in site.posts offset:1 %}
+  {% for post in site.posts %}
     {% include featured-post.html %}
   {% endfor %}
 </div>
