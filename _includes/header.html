@@ -1,7 +1,4 @@
 <header class="site-header">
-  <h3 class="site-title">
-    <a href="{{ site.github.url }}/">{{ site.title }}</a>
-  </h3>
   <nav class="menu-list">
     {% for item in site.data.settings.menu %}
       <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
@@ -28,12 +25,6 @@
   .site-header {
     font-family: 'Times New Roman', Times, serif !important;
   }
-  
-  /* Bold site title */
-  .site-title a {
-    font-family: 'Times New Roman', Times, serif !important;
-    font-weight: bold !important;
-  }
 
   /* Target text links only, excluding icons */
   .menu-link {
@@ -53,9 +44,7 @@
     align-items: center !important;
     width: 100% !important;
   }
-</style>
 
-<style>
   .wrapper, 
   .page-content, 
   main,
