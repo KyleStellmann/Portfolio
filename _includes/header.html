@@ -40,7 +40,7 @@
 </header>
 
 <style>
-  /* Force parent theme wrappers to full width and remove left/right offsets */
+  /* Force parent theme wrappers to full width and add slight transparency */
   .site-header,
   header.site-header,
   header,
@@ -53,6 +53,16 @@
     padding-right: 0 !important;
     box-sizing: border-box !important;
     font-family: 'Times New Roman', Times, serif !important;
+    
+    /* Slightly transparent background + blur effect */
+    background-color: rgba(255, 255, 255, 0.85) !important; /* 85% opaque white */
+    backdrop-filter: blur(8px) !important; /* Soft frosted glass blur */
+    -webkit-backdrop-filter: blur(8px) !important;
+    
+    /* Stick to the top when scrolling */
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000 !important;
   }
 
   /* Stretch nav items evenly across the entire page width */
@@ -62,7 +72,7 @@
     align-items: center !important;
     width: 100% !important;
     margin: 0 !important;
-    padding: 0 5% !important;
+    padding: 12px 5% !important;
     box-sizing: border-box !important;
   }
 
@@ -74,8 +84,8 @@
     font-weight: normal !important;
     white-space: nowrap !important;
     position: relative !important;
-    padding: 2px 6px 4px 6px !important; /* Compact padding to keep height low */
-    border-radius: 0 !important; /* Sharp, square corners */
+    padding: 2px 6px 4px 6px !important;
+    border-radius: 0 !important;
     transition: all 0.2s ease !important;
   }
 
@@ -83,8 +93,8 @@
   .menu-link.active {
     font-weight: bold !important;
     color: #222222 !important;
-    background-color: #f2f2f2 !important; /* Lighter, subtle gray */
-    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.15) !important; /* Softened inset depth */
+    background-color: rgba(242, 242, 242, 0.9) !important;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.15) !important;
     border-bottom: 2px solid #000000 !important;
   }
 
