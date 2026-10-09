@@ -9,6 +9,18 @@ permalink: /about/
   .page-title, h1.title {
     display: none !important;
   }
+
+  /* Force theme wrapper to match the full 1000px width */
+  .page,
+  .page-content,
+  .post-content,
+  article,
+  main {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 </style>
 
 # Hi, I'm Kyle.
