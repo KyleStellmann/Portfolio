@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
-{% for post in paginator.posts %}
-  {% include featured-post.html %}
-{% endfor %}
+<div style="margin-top: 40px;">
+  {% for post in paginator.posts %}
+    {% include featured-post.html %}
+  {% endfor %}
+</div>
