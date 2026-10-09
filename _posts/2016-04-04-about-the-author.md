@@ -1,7 +1,7 @@
 ---
 layout: post
-title: " "
-author: "Paul Le"
+title: "NJDMA Facility Energy Audit"
+author: "Kyle Stellmann"
 categories: facts
 tags: [sample]
 image: NJDMA.png
