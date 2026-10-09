@@ -62,7 +62,7 @@
     align-items: center !important;
     width: 100% !important;
     margin: 0 !important;
-    padding: 0 5% !important; /* Adjust this percentage if you want it closer to/further from the edges */
+    padding: 0 5% !important;
     box-sizing: border-box !important;
   }
 
@@ -74,16 +74,21 @@
     font-weight: normal !important;
     white-space: nowrap !important;
     position: relative !important;
-    padding-bottom: 6px !important; /* Creates breathing room for the underline and arrow */
+    padding: 4px 10px 8px 10px !important; /* Extra padding around text for inset container effect */
+    border-radius: 4px !important;
+    transition: all 0.2s ease !important;
   }
 
-  /* Active page highlight: Bold + Bottom Underline */
+  /* Active page highlight: Pressed/Inset effect + Bold + Underline */
   .menu-link.active {
     font-weight: bold !important;
+    color: #333333 !important; /* Slightly softened dark text for pressed depth */
+    background-color: #e8e8e8 !important; /* Light gray background pill */
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.25) !important; /* Inset shadow creating pressed-down look */
     border-bottom: 2px solid #000000 !important;
   }
 
-  /* Little downward arrow centered directly beneath the active underline */
+  /* Downward arrow centered directly beneath the pressed active button */
   .menu-link.active::after {
     content: '' !important;
     position: absolute !important;
