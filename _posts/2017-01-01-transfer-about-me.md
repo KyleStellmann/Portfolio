@@ -2,7 +2,7 @@
 layout: post
 title: " "
 date: 2017-01-01
-image: Header.jpg
+image: Headshot.jpg
 author: "Kyle Stellmann"
 ---
 <meta http-equiv="refresh" content="0; url=/Portfolio/about/" />
