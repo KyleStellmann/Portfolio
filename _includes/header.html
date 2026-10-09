@@ -40,7 +40,7 @@
 </header>
 
 <style>
-  /* Force parent theme wrappers to full width and add slight transparency */
+  /* Force parent theme wrappers to full width with 55% transparency and blur */
   .site-header,
   header.site-header,
   header,
@@ -54,29 +54,29 @@
     box-sizing: border-box !important;
     font-family: 'Times New Roman', Times, serif !important;
     
-    /* Slightly transparent background + blur effect */
-    background-color: rgba(255, 255, 255, 0.85) !important; /* 85% opaque white */
-    backdrop-filter: blur(8px) !important; /* Soft frosted glass blur */
-    -webkit-backdrop-filter: blur(8px) !important;
+    /* Transparent white background with frosted glass effect */
+    background-color: rgba(255, 255, 255, 0.55) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
     
-    /* Stick to the top when scrolling */
+    /* Sticky position on scroll */
     position: sticky !important;
     top: 0 !important;
     z-index: 1000 !important;
   }
 
-  /* Stretch nav items evenly across the entire page width */
+  /* Main navigation flexbox container with restored vertical padding */
   .site-header .menu-list {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     width: 100% !important;
     margin: 0 !important;
-    padding: 12px 5% !important;
+    padding: 22px 5% !important;
     box-sizing: border-box !important;
   }
 
-  /* Base nav links styling */
+  /* Base link styling */
   .menu-link {
     font-family: 'Times New Roman', Times, serif !important;
     color: #000000 !important;
@@ -84,21 +84,20 @@
     font-weight: normal !important;
     white-space: nowrap !important;
     position: relative !important;
-    padding: 2px 6px 4px 6px !important;
+    padding: 4px 8px 6px 8px !important;
     border-radius: 0 !important;
     transition: all 0.2s ease !important;
   }
 
-  /* Active page highlight: Subtle inset + sharp corners + bold + underline */
+  /* Active tab style with downward indicator triangle */
   .menu-link.active {
     font-weight: bold !important;
     color: #222222 !important;
-    background-color: rgba(242, 242, 242, 0.9) !important;
+    background-color: rgba(242, 242, 242, 0.8) !important;
     box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.15) !important;
     border-bottom: 2px solid #000000 !important;
   }
 
-  /* Downward arrow centered directly beneath the pressed active button */
   .menu-link.active::after {
     content: '' !important;
     position: absolute !important;
@@ -109,12 +108,4 @@
     height: 0 !important;
     border-left: 5px solid transparent !important;
     border-right: 5px solid transparent !important;
-    border-top: 5px solid #000000 !important;
-  }
-
-  /* Font Awesome Icon Protection */
-  .site-header .fa,
-  .site-header i {
-    font-family: 'FontAwesome', FontAwesome !important;
-  }
-</style>
+    border-top: 5px solid #
