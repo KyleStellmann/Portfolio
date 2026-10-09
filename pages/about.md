@@ -10,7 +10,7 @@ permalink: /about/
     display: none !important;
   }
 
-  /* Force theme wrapper to match the full 1000px width */
+  /* Force theme wrapper to match the full 800px width */
   .page,
   .page-content,
   .post-content,
