@@ -1,10 +1,9 @@
 <header class="site-header">
   <nav class="menu-list">
-    <!-- Home link added to the main nav loop -->
+    <!-- Home link -->
     <a href="{{ site.github.url }}/" class="menu-link {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">Home</a>
 
     {% for item in site.data.settings.menu %}
-      <!-- Formats URL check for active highlight -->
       {% assign item_url = item.url | prepend: '/' %}
       <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link {% if page.url == item_url %}active{% endif %}">
         {{ item.name }}
@@ -37,19 +36,25 @@
 </header>
 
 <style>
-  /* Header layout and typography */
+  /* Header container resetting offsets */
   .site-header {
     font-family: 'Times New Roman', Times, serif !important;
-    width: 100%;
+    width: 100% !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+    box-sizing: border-box !important;
   }
 
-  /* Spacing navigation items evenly across the width */
+  /* Reset default browser/theme list paddings causing right overflow */
   .site-header .menu-list {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     width: 100% !important;
-    margin: 0 auto;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
   }
 
   /* Base styling for links */
@@ -58,31 +63,18 @@
     color: #000000 !important;
     text-decoration: none !important;
     font-weight: normal;
-    transition: font-weight 0.2s, border-bottom 0.2s;
+    white-space: nowrap !important;
   }
 
-  /* Highlight for active page */
+  /* Active page highlight */
   .menu-link.active {
     font-weight: bold !important;
     border-bottom: 2px solid #000000 !important;
   }
 
-  /* Protect Font Awesome icons from font overrides */
+  /* Font Awesome Icon Protection */
   .site-header .fa,
   .site-header i {
     font-family: 'FontAwesome', FontAwesome !important;
-  }
-
-  .wrapper, 
-  .page-content, 
-  main,
-  .site-header .wrapper {
-    max-width: 800px !important;
-    width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    box-sizing: border-box !important;
   }
 </style>
