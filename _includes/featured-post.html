@@ -1,3 +1,13 @@
+<style>
+  .project-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+</style>
+
 <!-- HERO / INTRO POST (First loop item) -->
 {% if forloop.first %}
 <div style="width: 100%; box-sizing: border-box; background: #ffffff; text-align: left; font-family: 'Times New Roman', Times, serif; padding: 10px 0 40px 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px;">
@@ -23,12 +33,12 @@
 
 <!-- Opening wrapper for subsequent project grid items -->
 <h3 style="font-family: 'Times New Roman', Times, serif; font-size: 1.8rem; margin: 0 0 20px 0; font-weight: normal; width: 100%;">Featured Engineering Projects</h3>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; width: 100%; box-sizing: border-box;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; width: 100%; box-sizing: border-box;">
 {% endif %}
 
 <!-- SUBSEQUENT PROJECT POSTS -->
 {% if forloop.first == false %}
-<div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 18px; background: #ffffff; display: flex; flex-direction: column; justify-content: space-between; font-family: 'Times New Roman', Times, serif; transition: transform 0.2s ease;">
+<div class="project-card" style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 18px; background: #ffffff; display: flex; flex-direction: column; justify-content: space-between; font-family: 'Times New Roman', Times, serif;">
 
   {% if post.image %}
     <a href="{{ site.github.url }}{{ post.url }}" style="display: block; width: 100%; height: 200px; overflow: hidden; margin-bottom: 15px;">
@@ -36,13 +46,9 @@
     </a>
   {% endif %}
 
-  <h3 style="font-family: 'Times New Roman', Times, serif; font-size: 1.2rem; margin: 0 0 8px 0; font-weight: bold; text-align: center;">
+  <h3 style="font-family: 'Times New Roman', Times, serif; font-size: 1.1rem; margin: 0; font-weight: bold; text-align: center;">
     <a href="{{ site.github.url }}{{ post.url }}" style="color: inherit; text-decoration: none;">{{ post.title }}</a>
   </h3>
-
-  {% if post.description %}
-    <p style="font-size: 0.9rem; color: #4a5568; line-height: 1.4; margin: 0; text-align: center;">{{ post.description }}</p>
-  {% endif %}
 
 </div>
 {% endif %}
