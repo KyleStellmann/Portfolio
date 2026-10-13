@@ -47,7 +47,9 @@ When I’m not in class, you’ll usually find me:
 
 * **In the Garage:** I do all my own vehicle maintenance. Mostly because my car and truck seem to find new ways to break themselves. From suspension overhauls to bodywork, I love taking on practical mechanical challenges off the screen.
 
-<img src="{{ '/assets/img/truck.jpg' | relative_url }}" alt="Working on my truck in the garage" style="display: block; width: 100%; max-width: 500px; height: auto; border-radius: 4px; margin: 15px auto;">
+<img src="{{ '/assets/img/truck.jpg' | relative_url }}" 
+     alt="Working on my truck in the garage" 
+     style="display: block; width: 100%; max-width: 520px; height: auto; border-radius: 6px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); margin: 16px auto 20px auto;">
 
 * **In the Gym:** I’m at the gym every morning right when doors open. Engineering requires long hours sitting at screens, so keeping a strong, healthy body is essential for keeping a sharp mind.
 * **In the Community:** I volunteer with **Assistive Technologies**, designing and modifying everyday objects to make them accessible for individuals with mobility challenges.
