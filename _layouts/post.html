@@ -9,19 +9,19 @@ layout: default
   }
 </style>
 
-<main class="page-content" style="padding-top: 80px; max-width: 8000px; margin: 0 auto; text-align: center;">
+<main class="page-content" style="padding-top: 20px; max-width: 800px; margin: 0 auto; text-align: center;">
 
-  <header class="post-header" style="margin-bottom: 25px;">
+  <header class="post-header" style="margin-bottom: 20px;">
     <h1 class="post-title" style="margin: 0; font-size: 2.2rem; text-align: center;">{{ page.title | escape }}</h1>
   </header>
 
   {% if page.image %}
-    <div class="featured-image" style="margin-top: 25px; margin-bottom: 30px; text-align: center;">
+    <div class="featured-image" style="margin-top: 15px; margin-bottom: 25px; text-align: center;">
       <img src="{{ site.github.url }}/assets/img/{{ page.image }}" alt="{{ page.title | escape }}" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto; border-radius: 4px;">
     </div>
   {% endif %}
 
-  <article class="post-content" style="text-align: left; margin-top: 30px;">
+  <article class="post-content" style="text-align: left; margin-top: 25px;">
     {{ content }}
   </article>
 
