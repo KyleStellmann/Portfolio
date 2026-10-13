@@ -12,13 +12,14 @@ Engineered and fabricated a functional Stirling engine designed to convert therm
 
 ---
 
-### Dynamic Motion Study
-<div style="text-align: center; margin: 20px 0 30px 0;">
-  <img src="{{ site.github.url }}/assets/img/Animation.gif" alt="Stirling Engine Motion Demo" style="max-height: 380px; width: auto; max-width: 100%; border-radius: 4px;">
-</div>
-
 ### Technical Highlights & Analysis
 - **CAD Modeling & Dynamics:** Modeled the complete assembly in SolidWorks and calculated the flywheel's moment of inertia to ensure sufficient kinetic energy to carry the piston through its compression stroke.
 - **Kinematics & Timing:** Designed the custom crankshaft and connecting rod linkages in SolidWorks to establish precise mechanical timing between the displacer and power cylinder.
 - **Tolerance & Seal Optimization:** Iterated interference fits between the 3D-printed PLA piston and PVC cylinder to achieve a near airtight seal with minimal sliding friction.
 - **System Validation:** Successfully achieved a consistent idle speed using a standard heat lamp, leveraging precision tolerances and flywheel inertia to smooth out power strokes and prevent stalling.
+
+
+### Dynamic Motion Study
+<div style="text-align: center; margin: 20px 0 30px 0;">
+  <img src="{{ site.github.url }}/assets/img/Animation.gif" alt="Stirling Engine Motion Demo" style="max-height: 380px; width: auto; max-width: 100%; border-radius: 4px;">
+</div>
