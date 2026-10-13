@@ -29,6 +29,8 @@ permalink: /about/
 
 I’m a Junior studying Mechanical Engineering at **Rowan University**, born and raised in Wantage, New Jersey. 
 
+
+
 Ever since I can remember, I’ve been fascinated by taking things apart to see how they work and putting them back together better than I found them. To me, Engineering is more than just equations and calculations, it is about the feeling of building something tangible and seeing an idea function in the real world.
 
 ---
@@ -39,13 +41,18 @@ I like taking on challenges that push me out of my comfort zone. Whether I’m s
 
 ---
 
-### Life Beyond Engineering
+### Life Beyond the Classroom
 
-When I’m not in class or in the campus machine shop:
+When I’m not in class, you’ll usually find me staying active, working with my hands, or giving back:
 
-- I volunteer with **Assistive Technologies**, designing custom tools and controls to help make everyday objects more accessible for people with mobility challenges.
-- I’m an active member of Rowan’s **Martinson Honors College** and **ASME**.
-- I work at Liscio’s Bakery to help pay my way through school. It’s fast-paced, keeps my time management sharp, and reminds me of the value of plain old hard work.
+* **In the Garage:** I do all my own vehicle maintenance. Mostly because my car and truck seem to find new ways to break themselves. From suspension overhauls to bodywork, I love taking on practical mechanical challenges off the screen.
+
+![Working on my truck](Truck.jpg)
+
+* **In the Gym:** I’m at the gym every morning right when doors open. Engineering requires long hours sitting at screens, so keeping a strong, healthy body is essential for keeping a sharp mind.
+* **In the Community:** I volunteer with **Assistive Technologies**, designing and modifying everyday objects to make them accessible for individuals with mobility challenges.
+* **On Campus:** I’m an active member of Rowan’s **Martinson Honors College** and **ASME** (American Society of Mechanical Engineers).
+* **On the Job:** I work at Liscio’s Bakery to help pay my way through school. The fast-paced environment keeps my time management sharp and reinforces the value of simple, hard work.
 
 ---
 
