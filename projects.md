@@ -4,12 +4,21 @@ title: Engineering Projects
 permalink: /projects/
 ---
 <style>
+  .projects-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    font-weight: normal;
+    color: #000000;
+    margin: 10px 0 30px 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #e5e7eb;
+  }
+
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 24px;
     width: 100%;
-    margin-top: 30px;
     box-sizing: border-box;
   }
 
@@ -58,6 +67,8 @@ permalink: /projects/
     text-decoration: none;
   }
 </style>
+
+<h1 class="projects-header">Engineering Projects</h1>
 
 <div class="projects-grid">
   {% for post in site.posts offset:1 %}
