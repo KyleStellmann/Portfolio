@@ -1,16 +1,16 @@
 <!-- MUST start with this -->
-<div style="width: 100%; box-sizing: border-box; background: #ffffff; text-align: {% if forloop.first %}left{% else %}center{% endif %}; font-family: 'Times New Roman', Times, serif; {% if forloop.first %}padding: 10px 0 40px 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px;{% else %}padding: 40px 0;{% endif %}">
+<div style="width: 100%; box-sizing: border-box; background: #ffffff; text-align: {% if forloop.first %}left{% else %}center{% endif %}; font-family: 'Times New Roman', Times, serif; {% if forloop.first %}padding: 10px 0 40px 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px;{% else %}padding: 24px; margin-bottom: 28px; border: 1px solid #eaeeef; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.03);{% endif %}">
 
   <!-- 1. Title FIRST -->
-  <h2 style="font-family: 'Times New Roman', Times, serif; font-size: 2.5rem; margin: 0 0 15px 0; color: #000000; line-height: 1.1; font-weight: normal;">
+  <h2 style="font-family: 'Times New Roman', Times, serif; font-size: {% if forloop.first %}2.5rem{% else %}1.4rem{% endif %}; margin: 0 0 15px 0; color: #000000; line-height: 1.2; font-weight: {% if forloop.first %}normal{% else %}bold{% endif %};">
     <a href="{{ site.github.url }}{{ post.url }}" style="color: inherit; text-decoration: none;">{{ post.title }}</a>
   </h2>
 
   <!-- 2. Image SECOND -->
   {% if post.image %}
-    <div style="margin-bottom: 20px;">
+    <div style="margin-bottom: 10px; display: flex; justify-content: center; align-items: center; {% if forloop.first %}{% else %}background: #fafafa; border-radius: 6px; padding: 15px;{% endif %}">
       <a href="{{ site.github.url }}{{ post.url }}">
-        <img src="{{ site.github.url }}/assets/img/{{ post.image }}" alt="{{ post.title }}" style="height: 450px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: {% if forloop.first %}0 0{% else %}0 auto{% endif %};">
+        <img src="{{ site.github.url }}/assets/img/{{ post.image }}" alt="{{ post.title }}" style="height: {% if forloop.first %}450px{% else %}260px{% endif %}; width: auto; max-width: 100%; object-fit: contain; display: block; margin: {% if forloop.first %}0 0{% else %}0 auto{% endif %};">
       </a>
     </div>
   {% endif %}
