@@ -53,7 +53,7 @@ Whether you'd like to discuss engineering opportunities, collaborate on a projec
 
 If you need a copy of my official resume for employment or academic purposes, you can download it directly below:
 
-<a href="../assets/Kyle_Stellmann_Resume.pdf" class="contact-btn" download>Download PDF Resume</a>
+<a href="../assets/img/Kyle_Stellmann_Resume.pdf" class="contact-btn" download>Download PDF Resume</a>
 
 ---
 
