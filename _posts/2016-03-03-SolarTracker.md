@@ -7,7 +7,6 @@ image:
 ---
 ### Project Overview
 
-
 ---
 
 ### Technical Highlights & Analysis
