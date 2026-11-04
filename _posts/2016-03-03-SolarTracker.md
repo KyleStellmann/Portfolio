@@ -3,7 +3,7 @@ layout: post
 title: "Single-Axis Light Tracking System"
 author: "Kyle Stellmann"
 categories: projects
-image: solar-tracker-thumb.png
+image: SolarTracker.png
 ---
 
 ### Project Overview
