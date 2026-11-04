@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Solar Tracking System"
+title: "Solar Tracking System | In Progress"
 author: "Kyle Stellmann"
 categories: projects
-image: 
+image: SolarTracker.png
 ---
 ### Project Overview
 
