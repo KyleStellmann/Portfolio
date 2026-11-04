@@ -7,7 +7,7 @@ image: SolarTracker.png
 ---
 ### Project Overview 
 Designed and built a single-axis light tracking system using an Arduino and a custom 3D-printed frame. The system rotates automatically toward bright light sources, focusing on simple hardware integration and low-cost 3D fabrication.
----
+
 ### Technical Highlights & Analysis
 - Sensor Logic: Used two Light Dependent Resistors (LDRs) to compare light readings and calculate which direction the frame should turn.
 
