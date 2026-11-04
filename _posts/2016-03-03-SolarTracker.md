@@ -16,3 +16,7 @@ Designed and built a single-axis light tracking system using an Arduino and a cu
 - Servo Motion Smoothing (In Progress): Writing embedded C++ code with deadbands and signal filtering to smooth out motor jitter and prevent rapid back-and-forth twitching.
 
 - Cable Management (In Progress): Organizing and routing sensor wires through custom channels in the printed chassis to prevent tangling during rotation.
+
+<div style="text-align: center; margin: 25px 0;">
+  <img src="{{ site.github.url }}/assets/img/SolarTracker.gif" alt="" style="max-height: 400px; width: auto; max-width: 100%; border-radius: 4px;">
+</div>
