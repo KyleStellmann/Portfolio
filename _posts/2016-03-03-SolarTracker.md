@@ -20,4 +20,12 @@ Designed and built a single-axis light tracking system using an Arduino and a cu
 ### Prototype Demonstration
 *Check out the early prototype test below:*
 
-<iframe width="560" height="315" src="https://youtube.com/shorts/MRSSKDdbY6E?is=jiluXho3Ijekp078" frameborder="0" allowfullscreen></iframe>
+<iframe 
+  width="315" 
+  height="560" 
+  src="https://www.youtube.com/embed/MRSSKDdbY6E" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
