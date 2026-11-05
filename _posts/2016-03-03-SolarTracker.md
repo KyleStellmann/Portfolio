@@ -3,7 +3,7 @@ layout: post
 title: "Light Tracking System | In Progress"
 author: "Kyle Stellmann"
 categories: projects
-image: SolarTracker.png
+image: SolarTracker.jpg
 ---
 
 ### Project Overview
