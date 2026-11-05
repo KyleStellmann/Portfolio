@@ -5,6 +5,14 @@ author: "Kyle Stellmann"
 categories: projects
 image: SolarTracker.jpg
 ---
+<style>
+  /* Limits only the top featured image rendered on THIS specific page */
+  .featured-image img {
+    max-height: 380px !important;
+    width: auto !important;
+    object-fit: contain;
+  }
+</style>
 
 ### Project Overview
 Designed and built a single-axis light tracking system using an Arduino and a custom 3D-printed frame. The system rotates automatically toward bright light sources, focusing on simple hardware integration and low-cost 3D fabrication.
